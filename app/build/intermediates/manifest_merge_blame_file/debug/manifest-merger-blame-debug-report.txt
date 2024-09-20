@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidjavademo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:7:5-29:19
+14        android:allowBackup="true"
+14-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] /Users/anukul/.gradle/caches/transforms-3/c1bc9974ce087a4885457a421dafaa18/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:10:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:12:9-41
+22        android:networkSecurityConfig="@xml/network_security_config"
+22-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:16:9-69
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.AndroidJavaDemo" >
+26-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:15:9-53
+27        <activity
+27-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:18:9-28:20
+28            android:name="com.example.androidjavademo.MainActivity"
+28-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:19:13-41
+29            android:exported="true"
+29-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:20:13-36
+30            android:label="@string/app_name"
+30-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:21:13-45
+31            android:theme="@style/Theme.AndroidJavaDemo" >
+31-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:22:13-57
+32            <intent-filter>
+32-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:24:17-69
+33-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:26:17-77
+35-->/Users/anukul/Desktop/playground/signoz/android-demo/AndroidJavaDemo/app/src/main/AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.androidjavademo.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/anukul/.gradle/caches/transforms-3/492c5cbc6d7eb2d03bd65dfdba44178e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anukul/.gradle/caches/transforms-3/6cbb61572e80f941ddcb1552af952408/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anukul/.gradle/caches/transforms-3/6cbb61572e80f941ddcb1552af952408/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anukul/.gradle/caches/transforms-3/6cbb61572e80f941ddcb1552af952408/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+49        </provider>
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] /Users/anukul/.gradle/caches/transforms-3/f0dc90e6f96fdc6f66d57f65e4c3895a/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+57    </application>
+58
+59</manifest>
